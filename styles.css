@@ -9,6 +9,16 @@ body{
 
 *{box-sizing: border-box;}
 
+/* 
+Creating zoom-up effect
+*/
+.zoom{
+    transition: 0.2s;
+}
+.zoom:hover{
+    transform: scale(1.05);
+}
+
 h1, h2, h3{
     margin:0;
     color: #fff;
@@ -78,7 +88,7 @@ section, footer{
 Setting up the header and containers
 */
 header{
-    background: url(img/background.jpg)no-repeat center;
+    background: url(img/background.jpg)no-repeat center fixed;
     background-size: cover;
     position: relative;
 }
@@ -577,7 +587,7 @@ Changing colors for the rest of the cards
 Trial section
 */
 .trial{
-    background: url(img/background.jpg) center no-repeat;
+    background: url(img/background.jpg) center no-repeat fixed;
     background-size: cover;
     padding: 6em 1em;
 }
