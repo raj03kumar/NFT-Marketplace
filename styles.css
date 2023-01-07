@@ -18,6 +18,10 @@ Creating zoom-up effect
 .zoom:hover{
     transform: scale(1.05);
 }
+/* creating scroll-up such that when we click on the link then it redirects us some pixels above the section of the page */
+#artworks, #artists, #about{
+    scroll-margin-top: 100px;
+}
 
 h1, h2, h3{
     margin:0;
@@ -646,7 +650,8 @@ footer p{
         background: #020824;
         position: absolute;
         left: 0;
-        top: 5em;
+        top: 2.25em; 
+        /* changed the top margin of the navbar such that it doesn't leave spaces between the navbar and the dropdown menu */
         width: 100%;
         height: 0;
         display: flex;
