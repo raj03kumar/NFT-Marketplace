@@ -149,7 +149,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2em 0;
+    padding: 1em 5em 0.5em;
+    position: fixed;
+    z-index: 2;
+    backdrop-filter: blur(30px);
 }
 
 nav a{
@@ -195,7 +198,7 @@ Styling the middle part of header
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3em 0 1em 0;
+    margin: 10em 0 1em 0;
 }
 
 .header-body div div{
